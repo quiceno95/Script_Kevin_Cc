@@ -125,6 +125,197 @@ npm run test-user 3
 El sistema proporciona logs detallados:
 - 📊 Usuario seleccionado y datos utilizados
 - ⏱️ Tiempo de ejecución
+- ✅ Estado de reemplazos de datos
+- 🔄 Información de backup y restauración
+
+## 🚀 Ejecutar en Otra Máquina
+
+### Requisitos del Sistema
+
+#### **Obligatorios:**
+- **Node.js** v16+ (recomendado v18+)
+- **Google Chrome** (versión reciente)
+- **Git** (para clonar el proyecto)
+
+#### **Sistemas Operativos Soportados:**
+- ✅ **macOS** (Intel/Apple Silicon)
+- ✅ **Windows** 10/11
+- ✅ **Linux** (Ubuntu, CentOS, etc.)
+
+### Pasos de Instalación
+
+#### **1. Verificar Node.js**
+```bash
+# Verificar versión de Node.js
+node --version
+npm --version
+
+# Si no tienes Node.js, descárgalo de: https://nodejs.org
+```
+
+#### **2. Verificar Google Chrome**
+```bash
+# En macOS/Linux
+google-chrome --version
+# o
+chromium --version
+
+# En Windows
+# Verificar desde: chrome://version/
+```
+
+#### **3. Transferir el Proyecto**
+
+**Opción A: Copiar archivos manualmente**
+```bash
+# Crear directorio del proyecto
+mkdir selenium-automation
+cd selenium-automation
+
+# Copiar estos archivos esenciales:
+# - Tets Metdo De Pago.side
+# - Tets Metdo De Pago.side.backup
+# - .side.yml
+# - test_data_expanded.json
+# - prepare_data_only.js
+# - package.json
+# - README.md
+```
+
+**Opción B: Usar Git (recomendado)**
+```bash
+# Si el proyecto está en un repositorio
+git clone <URL_DEL_REPOSITORIO>
+cd <NOMBRE_DEL_PROYECTO>
+```
+
+#### **4. Instalar Dependencias**
+```bash
+# Instalar dependencias del proyecto
+npm install
+
+# Esto instalará automáticamente:
+# - selenium-side-runner
+# - chromedriver (compatible con tu Chrome)
+```
+
+#### **5. Verificar Instalación**
+```bash
+# Verificar que selenium-side-runner funciona
+npx selenium-side-runner --version
+
+# Verificar que chromedriver funciona
+npx chromedriver --version
+```
+
+### Configuración Específica por SO
+
+#### **macOS**
+```bash
+# Si tienes problemas con permisos de ChromeDriver
+sudo xattr -d com.apple.quarantine /usr/local/bin/chromedriver
+
+# O instalar ChromeDriver con Homebrew
+brew install chromedriver
+```
+
+#### **Windows**
+```bash
+# Asegúrate de que Chrome esté en el PATH
+# Usualmente en: C:\Program Files\Google\Chrome\Application\chrome.exe
+
+# Si hay problemas, instalar ChromeDriver manualmente:
+# 1. Descargar de: https://chromedriver.chromium.org
+# 2. Agregar al PATH del sistema
+```
+
+#### **Linux (Ubuntu/Debian)**
+```bash
+# Instalar Chrome si no está instalado
+wget -q -O - https://dl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
+echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" | sudo tee /etc/apt/sources.list.d/google-chrome.list
+sudo apt update
+sudo apt install google-chrome-stable
+
+# Instalar dependencias adicionales si es necesario
+sudo apt install -y libgconf-2-4 libxss1 libxtst6 libxrandr2 libasound2 libpangocairo-1.0-0 libatk1.0-0 libcairo-gobject2 libgtk-3-0 libgdk-pixbuf2.0-0
+```
+
+### Prueba de Funcionamiento
+
+```bash
+# 1. Ver usuarios disponibles
+npm run show-expanded-data
+
+# 2. Preparar datos de prueba
+npm run prepare-next
+
+# 3. Verificar configuración
+npm run show-current
+
+# 4. Ejecutar test de prueba
+npm test
+```
+
+### Archivos Esenciales para Transferir
+
+#### **📁 Archivos Obligatorios:**
+```
+✅ Tets Metdo De Pago.side          # Test principal
+✅ Tets Metdo De Pago.side.backup   # Backup original
+✅ .side.yml                        # Configuración Selenium
+✅ test_data_expanded.json          # Datos de usuarios
+✅ prepare_data_only.js             # Script de preparación
+✅ package.json                     # Dependencias
+✅ README.md                        # Documentación
+```
+
+#### **📁 Archivos Generados (se crean automáticamente):**
+```
+🔄 .current_user.json               # Usuario actual
+🔄 .used_indices.json               # Índices usados
+🔄 node_modules/                    # Dependencias (npm install)
+🔄 package-lock.json               # Lock de dependencias
+```
+
+### Solución de Problemas Comunes
+
+#### **Error: "chromedriver not found"**
+```bash
+# Reinstalar chromedriver
+npm uninstall chromedriver
+npm install chromedriver
+
+# O instalar globalmente
+npm install -g chromedriver
+```
+
+#### **Error: "Chrome binary not found"**
+```bash
+# Verificar ruta de Chrome y actualizar .side.yml si es necesario
+# En Windows: C:\Program Files\Google\Chrome\Application\chrome.exe
+# En macOS: /Applications/Google Chrome.app/Contents/MacOS/Google Chrome
+# En Linux: /usr/bin/google-chrome
+```
+
+#### **Error: "Permission denied"**
+```bash
+# En macOS/Linux
+chmod +x node_modules/.bin/selenium-side-runner
+chmod +x node_modules/.bin/chromedriver
+```
+
+### Comandos de Verificación Completa
+
+```bash
+# Script de verificación completa
+echo "🔍 Verificando entorno..."
+node --version
+npm --version
+google-chrome --version 2>/dev/null || chrome --version 2>/dev/null || echo "⚠️ Chrome no encontrado"
+npx selenium-side-runner --version
+echo "✅ Verificación completada"
+```
 - ✅/❌ Estado de cada paso
 - 📈 Estadísticas finales de múltiples ejecuciones
 

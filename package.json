@@ -6,6 +6,7 @@
     "test": "selenium-side-runner 'Tets Metdo De Pago.side'",
     "test-debug": "selenium-side-runner --debug 'Tets Metdo De Pago.side'",
     "test-timeout": "selenium-side-runner --timeout 30000 'Tets Metdo De Pago.side'",
+    "verify": "node verify-environment.js",
     "show-expanded-data": "node -e \"const data = require('./test_data_expanded.json'); console.log('📊 Datos expandidos disponibles:'); data.users.forEach((u,i) => console.log((i+1) + '. ' + u.firstName + ' ' + u.lastName + ' - ' + u.email + ' - ' + u.creditCardName));\"",
     "prepare-next": "node prepare_data_only.js next",
     "prepare-specific": "node prepare_data_only.js user",
