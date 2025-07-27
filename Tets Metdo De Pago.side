@@ -1,0 +1,702 @@
+{
+  "id": "1accfc3a-0155-401b-9065-5bc582d7a905",
+  "version": "2.0",
+  "name": "Tets Metdo De Pago",
+  "url": "https://mycan.ceramicartsnetwork.org",
+  "tests": [{
+    "id": "46c21e89-7715-4c7b-b539-f59ef63ed4f1",
+    "name": "test_payment_Method",
+    "commands": [{
+      "id": "80c87a01-b7ce-4de7-be86-1864f6a27081",
+      "comment": "",
+      "command": "open",
+      "target": "/NC__Login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fdc56e65-4e00-4eb4-b8e5-a45b99f443e8",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1880x1017",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "52b9b9aa-4245-47de-8fe6-c21992a97a0a",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Create a new account",
+      "targets": [
+        ["linkText=Create a new account", "linkText"],
+        ["css=p:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Create a new account')]", "xpath:link"],
+        ["xpath=//div[@id='login']/div[2]/p/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/nc__createaccount')]", "xpath:href"],
+        ["xpath=//div[2]/div/div[2]/p/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Create a new account')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4076fb30-e86a-400f-b87a-8cda9522f664",
+      "comment": "",
+      "command": "click",
+      "target": "id=j_id0:j_id3:j_id4:j_id172:j_id173:j_id174:j_id175_1:j_id299:j_id314:j_id315:j_id316:0:first-name",
+      "targets": [
+        ["id=j_id0:j_id3:j_id4:j_id172:j_id173:j_id174:j_id175_1:j_id299:j_id314:j_id315:j_id316:0:first-name", "id"],
+        ["name=j_id0:j_id3:j_id4:j_id172:j_id173:j_id174:j_id175_1:j_id299:j_id314:j_id315:j_id316:0:first-name", "name"],
+        ["css=#j_id0\\3Aj_id3\\3Aj_id4\\3Aj_id172\\3Aj_id173\\3Aj_id174\\3Aj_id175_1\\3Aj_id299\\3Aj_id314\\3Aj_id315\\3Aj_id316\\3A 0\\3A first-name", "css:finder"],
+        ["xpath=//input[@id='j_id0:j_id3:j_id4:j_id172:j_id173:j_id174:j_id175_1:j_id299:j_id314:j_id315:j_id316:0:first-name']", "xpath:attributes"],
+        ["xpath=//div[@id='j_id0:j_id3:j_id4:j_id172:j_id173:j_id174:j_id175_1:j_id299:j_id313']/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "919750f8-f44c-49f4-b365-81ae2de4fe8b",
+      "comment": "",
+      "command": "type",
+      "target": "id=j_id0:j_id3:j_id4:j_id172:j_id173:j_id174:j_id175_1:j_id299:j_id314:j_id315:j_id316:0:first-name",
+      "targets": [
+        ["id=j_id0:j_id3:j_id4:j_id172:j_id173:j_id174:j_id175_1:j_id299:j_id314:j_id315:j_id316:0:first-name", "id"],
+        ["name=j_id0:j_id3:j_id4:j_id172:j_id173:j_id174:j_id175_1:j_id299:j_id314:j_id315:j_id316:0:first-name", "name"],
+        ["css=#j_id0\\3Aj_id3\\3Aj_id4\\3Aj_id172\\3Aj_id173\\3Aj_id174\\3Aj_id175_1\\3Aj_id299\\3Aj_id314\\3Aj_id315\\3Aj_id316\\3A 0\\3A first-name", "css:finder"],
+        ["xpath=//input[@id='j_id0:j_id3:j_id4:j_id172:j_id173:j_id174:j_id175_1:j_id299:j_id314:j_id315:j_id316:0:first-name']", "xpath:attributes"],
+        ["xpath=//div[@id='j_id0:j_id3:j_id4:j_id172:j_id173:j_id174:j_id175_1:j_id299:j_id313']/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "Melissa"
+    }, {
+      "id": "6f4064f5-4c51-424e-8cb8-5e5348373010",
+      "comment": "",
+      "command": "click",
+      "target": "id=j_id0:j_id3:j_id4:j_id172:j_id173:j_id174:j_id175_1:j_id299:j_id314:j_id315:j_id316:1:last-name",
+      "targets": [
+        ["id=j_id0:j_id3:j_id4:j_id172:j_id173:j_id174:j_id175_1:j_id299:j_id314:j_id315:j_id316:1:last-name", "id"],
+        ["name=j_id0:j_id3:j_id4:j_id172:j_id173:j_id174:j_id175_1:j_id299:j_id314:j_id315:j_id316:1:last-name", "name"],
+        ["css=#j_id0\\3Aj_id3\\3Aj_id4\\3Aj_id172\\3Aj_id173\\3Aj_id174\\3Aj_id175_1\\3Aj_id299\\3Aj_id314\\3Aj_id315\\3Aj_id316\\3A 1\\3Alast-name", "css:finder"],
+        ["xpath=//input[@id='j_id0:j_id3:j_id4:j_id172:j_id173:j_id174:j_id175_1:j_id299:j_id314:j_id315:j_id316:1:last-name']", "xpath:attributes"],
+        ["xpath=//div[@id='j_id0:j_id3:j_id4:j_id172:j_id173:j_id174:j_id175_1:j_id299:j_id313']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f9e1701d-b1f1-4ed1-a837-ee8d7c1bc361",
+      "comment": "",
+      "command": "type",
+      "target": "id=j_id0:j_id3:j_id4:j_id172:j_id173:j_id174:j_id175_1:j_id299:j_id314:j_id315:j_id316:1:last-name",
+      "targets": [
+        ["id=j_id0:j_id3:j_id4:j_id172:j_id173:j_id174:j_id175_1:j_id299:j_id314:j_id315:j_id316:1:last-name", "id"],
+        ["name=j_id0:j_id3:j_id4:j_id172:j_id173:j_id174:j_id175_1:j_id299:j_id314:j_id315:j_id316:1:last-name", "name"],
+        ["css=#j_id0\\3Aj_id3\\3Aj_id4\\3Aj_id172\\3Aj_id173\\3Aj_id174\\3Aj_id175_1\\3Aj_id299\\3Aj_id314\\3Aj_id315\\3Aj_id316\\3A 1\\3Alast-name", "css:finder"],
+        ["xpath=//input[@id='j_id0:j_id3:j_id4:j_id172:j_id173:j_id174:j_id175_1:j_id299:j_id314:j_id315:j_id316:1:last-name']", "xpath:attributes"],
+        ["xpath=//div[@id='j_id0:j_id3:j_id4:j_id172:j_id173:j_id174:j_id175_1:j_id299:j_id313']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "Harris"
+    }, {
+      "id": "b9a14f21-0513-4cd3-a317-7c46a72604b4",
+      "comment": "",
+      "command": "click",
+      "target": "id=j_id0:j_id3:j_id4:j_id172:j_id173:j_id174:j_id175_1:j_id299:j_id314:j_id315:j_id316:3:formField",
+      "targets": [
+        ["id=j_id0:j_id3:j_id4:j_id172:j_id173:j_id174:j_id175_1:j_id299:j_id314:j_id315:j_id316:3:formField", "id"],
+        ["name=j_id0:j_id3:j_id4:j_id172:j_id173:j_id174:j_id175_1:j_id299:j_id314:j_id315:j_id316:3:formField", "name"],
+        ["css=#j_id0\\3Aj_id3\\3Aj_id4\\3Aj_id172\\3Aj_id173\\3Aj_id174\\3Aj_id175_1\\3Aj_id299\\3Aj_id314\\3Aj_id315\\3Aj_id316\\3A 3\\3A formField", "css:finder"],
+        ["xpath=//textarea[@id='j_id0:j_id3:j_id4:j_id172:j_id173:j_id174:j_id175_1:j_id299:j_id314:j_id315:j_id316:3:formField']", "xpath:attributes"],
+        ["xpath=//div[@id='j_id0:j_id3:j_id4:j_id172:j_id173:j_id174:j_id175_1:j_id299:j_id313']/div[4]/div/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "986e638a-614a-4f89-8dda-98791489d5ec",
+      "comment": "",
+      "command": "type",
+      "target": "id=j_id0:j_id3:j_id4:j_id172:j_id173:j_id174:j_id175_1:j_id299:j_id314:j_id315:j_id316:3:formField",
+      "targets": [
+        ["id=j_id0:j_id3:j_id4:j_id172:j_id173:j_id174:j_id175_1:j_id299:j_id314:j_id315:j_id316:3:formField", "id"],
+        ["name=j_id0:j_id3:j_id4:j_id172:j_id173:j_id174:j_id175_1:j_id299:j_id314:j_id315:j_id316:3:formField", "name"],
+        ["css=#j_id0\\3Aj_id3\\3Aj_id4\\3Aj_id172\\3Aj_id173\\3Aj_id174\\3Aj_id175_1\\3Aj_id299\\3Aj_id314\\3Aj_id315\\3Aj_id316\\3A 3\\3A formField", "css:finder"],
+        ["xpath=//textarea[@id='j_id0:j_id3:j_id4:j_id172:j_id173:j_id174:j_id175_1:j_id299:j_id314:j_id315:j_id316:3:formField']", "xpath:attributes"],
+        ["xpath=//div[@id='j_id0:j_id3:j_id4:j_id172:j_id173:j_id174:j_id175_1:j_id299:j_id313']/div[4]/div/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "45678 - Dogwood Way AV Gardens"
+    }, {
+      "id": "234cf9de-7664-4c4a-8330-f1d9a1c2fa6d",
+      "comment": "",
+      "command": "click",
+      "target": "id=j_id0:j_id3:j_id4:j_id172:j_id173:j_id174:j_id175_1:j_id299:j_id314:j_id315:j_id316:4:formField",
+      "targets": [
+        ["id=j_id0:j_id3:j_id4:j_id172:j_id173:j_id174:j_id175_1:j_id299:j_id314:j_id315:j_id316:4:formField", "id"],
+        ["name=j_id0:j_id3:j_id4:j_id172:j_id173:j_id174:j_id175_1:j_id299:j_id314:j_id315:j_id316:4:formField", "name"],
+        ["css=#j_id0\\3Aj_id3\\3Aj_id4\\3Aj_id172\\3Aj_id173\\3Aj_id174\\3Aj_id175_1\\3Aj_id299\\3Aj_id314\\3Aj_id315\\3Aj_id316\\3A 4\\3A formField", "css:finder"],
+        ["xpath=//input[@id='j_id0:j_id3:j_id4:j_id172:j_id173:j_id174:j_id175_1:j_id299:j_id314:j_id315:j_id316:4:formField']", "xpath:attributes"],
+        ["xpath=//div[@id='j_id0:j_id3:j_id4:j_id172:j_id173:j_id174:j_id175_1:j_id299:j_id313']/div[5]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ff6f5703-65da-4513-a804-b7c95a0d85a9",
+      "comment": "",
+      "command": "type",
+      "target": "id=j_id0:j_id3:j_id4:j_id172:j_id173:j_id174:j_id175_1:j_id299:j_id314:j_id315:j_id316:4:formField",
+      "targets": [
+        ["id=j_id0:j_id3:j_id4:j_id172:j_id173:j_id174:j_id175_1:j_id299:j_id314:j_id315:j_id316:4:formField", "id"],
+        ["name=j_id0:j_id3:j_id4:j_id172:j_id173:j_id174:j_id175_1:j_id299:j_id314:j_id315:j_id316:4:formField", "name"],
+        ["css=#j_id0\\3Aj_id3\\3Aj_id4\\3Aj_id172\\3Aj_id173\\3Aj_id174\\3Aj_id175_1\\3Aj_id299\\3Aj_id314\\3Aj_id315\\3Aj_id316\\3A 4\\3A formField", "css:finder"],
+        ["xpath=//input[@id='j_id0:j_id3:j_id4:j_id172:j_id173:j_id174:j_id175_1:j_id299:j_id314:j_id315:j_id316:4:formField']", "xpath:attributes"],
+        ["xpath=//div[@id='j_id0:j_id3:j_id4:j_id172:j_id173:j_id174:j_id175_1:j_id299:j_id313']/div[5]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/input", "xpath:position"]
+      ],
+      "value": "New Brunswick"
+    }, {
+      "id": "69307f9b-e492-4aba-8d99-262e96ec98b5",
+      "comment": "",
+      "command": "click",
+      "target": "id=j_id0:j_id3:j_id4:j_id172:j_id173:j_id174:j_id175_1:j_id299:j_id314:j_id315:j_id316:5:formField",
+      "targets": [
+        ["id=j_id0:j_id3:j_id4:j_id172:j_id173:j_id174:j_id175_1:j_id299:j_id314:j_id315:j_id316:5:formField", "id"],
+        ["name=j_id0:j_id3:j_id4:j_id172:j_id173:j_id174:j_id175_1:j_id299:j_id314:j_id315:j_id316:5:formField", "name"],
+        ["css=#j_id0\\3Aj_id3\\3Aj_id4\\3Aj_id172\\3Aj_id173\\3Aj_id174\\3Aj_id175_1\\3Aj_id299\\3Aj_id314\\3Aj_id315\\3Aj_id316\\3A 5\\3A formField", "css:finder"],
+        ["xpath=//select[@id='j_id0:j_id3:j_id4:j_id172:j_id173:j_id174:j_id175_1:j_id299:j_id314:j_id315:j_id316:5:formField']", "xpath:attributes"],
+        ["xpath=//div[@id='j_id0:j_id3:j_id4:j_id172:j_id173:j_id174:j_id175_1:j_id299:j_id313']/div[6]/div/div/span/select", "xpath:idRelative"],
+        ["xpath=//span/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3b29cad8-27cb-4e8a-8c94-6eec9c12b740",
+      "comment": "",
+      "command": "select",
+      "target": "id=j_id0:j_id3:j_id4:j_id172:j_id173:j_id174:j_id175_1:j_id299:j_id314:j_id315:j_id316:5:formField",
+      "targets": [],
+      "value": "label=New Jersey"
+    }, {
+      "id": "15adc53b-1844-4057-8aaa-c7ff000a039c",
+      "comment": "",
+      "command": "click",
+      "target": "css=#j_id0\\3Aj_id3\\3Aj_id4\\3Aj_id172\\3Aj_id173\\3Aj_id174\\3Aj_id175_1\\3Aj_id299\\3Aj_id314\\3Aj_id315\\3Aj_id316\\3A 5\\3A formField > option:nth-child(39)",
+      "targets": [
+        ["css=#j_id0\\3Aj_id3\\3Aj_id4\\3Aj_id172\\3Aj_id173\\3Aj_id174\\3Aj_id175_1\\3Aj_id299\\3Aj_id314\\3Aj_id315\\3Aj_id316\\3A 5\\3A formField > option:nth-child(39)", "css:finder"],
+        ["xpath=//option[@value='NJ']", "xpath:attributes"],
+        ["xpath=//select[@id='j_id0:j_id3:j_id4:j_id172:j_id173:j_id174:j_id175_1:j_id299:j_id314:j_id315:j_id316:5:formField']/option[39]", "xpath:idRelative"],
+        ["xpath=//span/select/option[39]", "xpath:position"],
+        ["xpath=//option[contains(.,'New Jersey')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "88d8498a-616d-455d-98df-5070e471722f",
+      "comment": "",
+      "command": "click",
+      "target": "id=j_id0:j_id3:j_id4:j_id172:j_id173:j_id174:j_id175_1:j_id299:j_id314:j_id315:j_id316:6:formField",
+      "targets": [
+        ["id=j_id0:j_id3:j_id4:j_id172:j_id173:j_id174:j_id175_1:j_id299:j_id314:j_id315:j_id316:6:formField", "id"],
+        ["name=j_id0:j_id3:j_id4:j_id172:j_id173:j_id174:j_id175_1:j_id299:j_id314:j_id315:j_id316:6:formField", "name"],
+        ["css=#j_id0\\3Aj_id3\\3Aj_id4\\3Aj_id172\\3Aj_id173\\3Aj_id174\\3Aj_id175_1\\3Aj_id299\\3Aj_id314\\3Aj_id315\\3Aj_id316\\3A 6\\3A formField", "css:finder"],
+        ["xpath=//input[@id='j_id0:j_id3:j_id4:j_id172:j_id173:j_id174:j_id175_1:j_id299:j_id314:j_id315:j_id316:6:formField']", "xpath:attributes"],
+        ["xpath=//div[@id='j_id0:j_id3:j_id4:j_id172:j_id173:j_id174:j_id175_1:j_id299:j_id313']/div[7]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[7]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "938320df-583d-4b6d-94cb-c88d4999f470",
+      "comment": "",
+      "command": "type",
+      "target": "id=j_id0:j_id3:j_id4:j_id172:j_id173:j_id174:j_id175_1:j_id299:j_id314:j_id315:j_id316:6:formField",
+      "targets": [
+        ["id=j_id0:j_id3:j_id4:j_id172:j_id173:j_id174:j_id175_1:j_id299:j_id314:j_id315:j_id316:6:formField", "id"],
+        ["name=j_id0:j_id3:j_id4:j_id172:j_id173:j_id174:j_id175_1:j_id299:j_id314:j_id315:j_id316:6:formField", "name"],
+        ["css=#j_id0\\3Aj_id3\\3Aj_id4\\3Aj_id172\\3Aj_id173\\3Aj_id174\\3Aj_id175_1\\3Aj_id299\\3Aj_id314\\3Aj_id315\\3Aj_id316\\3A 6\\3A formField", "css:finder"],
+        ["xpath=//input[@id='j_id0:j_id3:j_id4:j_id172:j_id173:j_id174:j_id175_1:j_id299:j_id314:j_id315:j_id316:6:formField']", "xpath:attributes"],
+        ["xpath=//div[@id='j_id0:j_id3:j_id4:j_id172:j_id173:j_id174:j_id175_1:j_id299:j_id313']/div[7]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[7]/div/div/input", "xpath:position"]
+      ],
+      "value": "08901"
+    }, {
+      "id": "4e211a4e-54d1-4a55-b29b-9e38421baaf5",
+      "comment": "",
+      "command": "click",
+      "target": "id=j_id0:j_id3:j_id4:j_id172:j_id173:j_id174:j_id175_1:j_id299:j_id314:j_id315:j_id316:7:formField",
+      "targets": [
+        ["id=j_id0:j_id3:j_id4:j_id172:j_id173:j_id174:j_id175_1:j_id299:j_id314:j_id315:j_id316:7:formField", "id"],
+        ["name=j_id0:j_id3:j_id4:j_id172:j_id173:j_id174:j_id175_1:j_id299:j_id314:j_id315:j_id316:7:formField", "name"],
+        ["css=#j_id0\\3Aj_id3\\3Aj_id4\\3Aj_id172\\3Aj_id173\\3Aj_id174\\3Aj_id175_1\\3Aj_id299\\3Aj_id314\\3Aj_id315\\3Aj_id316\\3A 7\\3A formField", "css:finder"],
+        ["xpath=//input[@id='j_id0:j_id3:j_id4:j_id172:j_id173:j_id174:j_id175_1:j_id299:j_id314:j_id315:j_id316:7:formField']", "xpath:attributes"],
+        ["xpath=//div[@id='j_id0:j_id3:j_id4:j_id172:j_id173:j_id174:j_id175_1:j_id299:j_id313']/div[8]/div/input", "xpath:idRelative"],
+        ["xpath=//div[8]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "81336959-16ac-45aa-9916-e221ecea209b",
+      "comment": "",
+      "command": "type",
+      "target": "id=j_id0:j_id3:j_id4:j_id172:j_id173:j_id174:j_id175_1:j_id299:j_id314:j_id315:j_id316:7:formField",
+      "targets": [
+        ["id=j_id0:j_id3:j_id4:j_id172:j_id173:j_id174:j_id175_1:j_id299:j_id314:j_id315:j_id316:7:formField", "id"],
+        ["name=j_id0:j_id3:j_id4:j_id172:j_id173:j_id174:j_id175_1:j_id299:j_id314:j_id315:j_id316:7:formField", "name"],
+        ["css=#j_id0\\3Aj_id3\\3Aj_id4\\3Aj_id172\\3Aj_id173\\3Aj_id174\\3Aj_id175_1\\3Aj_id299\\3Aj_id314\\3Aj_id315\\3Aj_id316\\3A 7\\3A formField", "css:finder"],
+        ["xpath=//input[@id='j_id0:j_id3:j_id4:j_id172:j_id173:j_id174:j_id175_1:j_id299:j_id314:j_id315:j_id316:7:formField']", "xpath:attributes"],
+        ["xpath=//div[@id='j_id0:j_id3:j_id4:j_id172:j_id173:j_id174:j_id175_1:j_id299:j_id313']/div[8]/div/input", "xpath:idRelative"],
+        ["xpath=//div[8]/div/input", "xpath:position"]
+      ],
+      "value": "281-567-8902"
+    }, {
+      "id": "f65cfd4c-b99b-4cee-9ce8-47c196cd455e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.valign-middle",
+      "targets": [
+        ["css=.valign-middle", "css:finder"],
+        ["xpath=//div[@id='j_id0:j_id3:j_id4:j_id172:j_id173:j_id174:j_id175_1:j_id299:j_id314:j_id315:j_id316:8:j_id337']/label/span", "xpath:idRelative"],
+        ["xpath=//div[9]/div/div/label/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Student')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5b2eec46-bbc1-4898-9f2d-d490079a3466",
+      "comment": "",
+      "command": "select",
+      "target": "id=j_id0:j_id3:j_id4:j_id172:j_id173:j_id174:j_id175_1:j_id299:j_id314:j_id315:j_id316:9:formField",
+      "targets": [],
+      "value": "label=Graduate"
+    }, {
+      "id": "80e15c48-f17d-4374-98c4-b3feb7ef1131",
+      "comment": "",
+      "command": "click",
+      "target": "css=#j_id0\\3Aj_id3\\3Aj_id4\\3Aj_id172\\3Aj_id173\\3Aj_id174\\3Aj_id175_1\\3Aj_id299\\3Aj_id314\\3Aj_id315\\3Aj_id316\\3A 9\\3A formField > option:nth-child(3)",
+      "targets": [
+        ["css=#j_id0\\3Aj_id3\\3Aj_id4\\3Aj_id172\\3Aj_id173\\3Aj_id174\\3Aj_id175_1\\3Aj_id299\\3Aj_id314\\3Aj_id315\\3Aj_id316\\3A 9\\3A formField > option:nth-child(3)", "css:finder"],
+        ["xpath=//option[@value='Graduate']", "xpath:attributes"],
+        ["xpath=//select[@id='j_id0:j_id3:j_id4:j_id172:j_id173:j_id174:j_id175_1:j_id299:j_id314:j_id315:j_id316:9:formField']/option[3]", "xpath:idRelative"],
+        ["xpath=//div[10]/div/select/option[3]", "xpath:position"],
+        ["xpath=//option[contains(.,'Graduate')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "37ed4e33-70f3-4d73-bc07-d6089aadd2be",
+      "comment": "",
+      "command": "executeScript",
+      "target": "window.scrollBy(0, 500);",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "09878da5-ab9c-4be5-9a8f-3ff214e44e93",
+      "comment": "",
+      "command": "click",
+      "target": "id=j_id0:j_id3:j_id4:j_id172:email",
+      "targets": [
+        ["id=j_id0:j_id3:j_id4:j_id172:email", "id"],
+        ["name=j_id0:j_id3:j_id4:j_id172:email", "name"],
+        ["css=#j_id0\\3Aj_id3\\3Aj_id4\\3Aj_id172\\3A email", "css:finder"],
+        ["xpath=//input[@id='j_id0:j_id3:j_id4:j_id172:email']", "xpath:attributes"],
+        ["xpath=//form[@id='j_id0:j_id3:j_id4:j_id172']/div[3]/div[2]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "46d74b77-57c8-47e7-9777-5aaf6123c933",
+      "comment": "",
+      "command": "type",
+      "target": "id=j_id0:j_id3:j_id4:j_id172:email",
+      "targets": [
+        ["id=j_id0:j_id3:j_id4:j_id172:email", "id"],
+        ["name=j_id0:j_id3:j_id4:j_id172:email", "name"],
+        ["css=#j_id0\\3Aj_id3\\3Aj_id4\\3Aj_id172\\3A email", "css:finder"],
+        ["xpath=//input[@id='j_id0:j_id3:j_id4:j_id172:email']", "xpath:attributes"],
+        ["xpath=//form[@id='j_id0:j_id3:j_id4:j_id172']/div[3]/div[2]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": "melissa.harris.014@gmail.com"
+    }, {
+      "id": "28feb2ec-fa7d-4397-822b-d6bbd518c3ef",
+      "comment": "",
+      "command": "click",
+      "target": "id=j_id0:j_id3:j_id4:j_id172:retypeEmail",
+      "targets": [
+        ["id=j_id0:j_id3:j_id4:j_id172:retypeEmail", "id"],
+        ["name=j_id0:j_id3:j_id4:j_id172:retypeEmail", "name"],
+        ["css=#j_id0\\3Aj_id3\\3Aj_id4\\3Aj_id172\\3AretypeEmail", "css:finder"],
+        ["xpath=//input[@id='j_id0:j_id3:j_id4:j_id172:retypeEmail']", "xpath:attributes"],
+        ["xpath=//form[@id='j_id0:j_id3:j_id4:j_id172']/div[3]/div[2]/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/div/div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "54785e9a-9f5b-4e0f-a9a4-ff8fd40fab86",
+      "comment": "",
+      "command": "type",
+      "target": "id=j_id0:j_id3:j_id4:j_id172:retypeEmail",
+      "targets": [
+        ["id=j_id0:j_id3:j_id4:j_id172:retypeEmail", "id"],
+        ["name=j_id0:j_id3:j_id4:j_id172:retypeEmail", "name"],
+        ["css=#j_id0\\3Aj_id3\\3Aj_id4\\3Aj_id172\\3AretypeEmail", "css:finder"],
+        ["xpath=//input[@id='j_id0:j_id3:j_id4:j_id172:retypeEmail']", "xpath:attributes"],
+        ["xpath=//form[@id='j_id0:j_id3:j_id4:j_id172']/div[3]/div[2]/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/div/div[2]/div/input", "xpath:position"]
+      ],
+      "value": "melissa.harris.014@gmail.com"
+    }, {
+      "id": "a87a4d63-9c91-4fbb-8c0e-a899800762cf",
+      "comment": "",
+      "command": "click",
+      "target": "id=j_id0:j_id3:j_id4:j_id172:password",
+      "targets": [
+        ["id=j_id0:j_id3:j_id4:j_id172:password", "id"],
+        ["name=j_id0:j_id3:j_id4:j_id172:password", "name"],
+        ["css=#j_id0\\3Aj_id3\\3Aj_id4\\3Aj_id172\\3Apassword", "css:finder"],
+        ["xpath=//input[@id='j_id0:j_id3:j_id4:j_id172:password']", "xpath:attributes"],
+        ["xpath=//form[@id='j_id0:j_id3:j_id4:j_id172']/div[3]/div[2]/div/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9909684d-11ed-4a72-97fa-7ea2f2b3a322",
+      "comment": "",
+      "command": "type",
+      "target": "id=j_id0:j_id3:j_id4:j_id172:password",
+      "targets": [
+        ["id=j_id0:j_id3:j_id4:j_id172:password", "id"],
+        ["name=j_id0:j_id3:j_id4:j_id172:password", "name"],
+        ["css=#j_id0\\3Aj_id3\\3Aj_id4\\3Aj_id172\\3Apassword", "css:finder"],
+        ["xpath=//input[@id='j_id0:j_id3:j_id4:j_id172:password']", "xpath:attributes"],
+        ["xpath=//form[@id='j_id0:j_id3:j_id4:j_id172']/div[3]/div[2]/div/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": "Port_lol.159#"
+    }, {
+      "id": "2ec2c46a-4922-4653-9bd8-a1496746eb35",
+      "comment": "",
+      "command": "click",
+      "target": "id=j_id0:j_id3:j_id4:j_id172:retypePassword",
+      "targets": [
+        ["id=j_id0:j_id3:j_id4:j_id172:retypePassword", "id"],
+        ["name=j_id0:j_id3:j_id4:j_id172:retypePassword", "name"],
+        ["css=#j_id0\\3Aj_id3\\3Aj_id4\\3Aj_id172\\3AretypePassword", "css:finder"],
+        ["xpath=//input[@id='j_id0:j_id3:j_id4:j_id172:retypePassword']", "xpath:attributes"],
+        ["xpath=//form[@id='j_id0:j_id3:j_id4:j_id172']/div[3]/div[2]/div/div[4]/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "989b04f0-beee-41cf-ab01-c2ac5881468c",
+      "comment": "",
+      "command": "type",
+      "target": "id=j_id0:j_id3:j_id4:j_id172:retypePassword",
+      "targets": [
+        ["id=j_id0:j_id3:j_id4:j_id172:retypePassword", "id"],
+        ["name=j_id0:j_id3:j_id4:j_id172:retypePassword", "name"],
+        ["css=#j_id0\\3Aj_id3\\3Aj_id4\\3Aj_id172\\3AretypePassword", "css:finder"],
+        ["xpath=//input[@id='j_id0:j_id3:j_id4:j_id172:retypePassword']", "xpath:attributes"],
+        ["xpath=//form[@id='j_id0:j_id3:j_id4:j_id172']/div[3]/div[2]/div/div[4]/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/input", "xpath:position"]
+      ],
+      "value": "Port_lol.159#"
+    }, {
+      "id": "bd37b254-cfe6-4607-84ec-0c4d5d89faea",
+      "comment": "",
+      "command": "click",
+      "target": "id=j_id0:j_id3:j_id4:j_id172:create-account-btn",
+      "targets": [
+        ["id=j_id0:j_id3:j_id4:j_id172:create-account-btn", "id"],
+        ["name=j_id0:j_id3:j_id4:j_id172:create-account-btn", "name"],
+        ["css=#j_id0\\3Aj_id3\\3Aj_id4\\3Aj_id172\\3A create-account-btn", "css:finder"],
+        ["xpath=//input[@id='j_id0:j_id3:j_id4:j_id172:create-account-btn']", "xpath:attributes"],
+        ["xpath=//form[@id='j_id0:j_id3:j_id4:j_id172']/div[4]/div/p/input", "xpath:idRelative"],
+        ["xpath=//p/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ad26ea56-48ac-4c0b-83bf-886ee124b59c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=My Payment Methods",
+      "targets": [
+        ["linkText=My Payment Methods", "linkText"],
+        ["css=.col-sm-3 .list-group-item:nth-child(7)", "css:finder"],
+        ["xpath=(//a[contains(text(),'My Payment Methods')])[2]", "xpath:link"],
+        ["xpath=//div[@id='j_id0:j_id1:j_id2:j_id3:PageContainer']/div/div/a[7]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/mypaymentmethods')])[2]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div/a[7]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d120dc2d-a2c0-46b1-a151-f4f2744cb544",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Add Credit Card",
+      "targets": [
+        ["linkText=Add Credit Card", "linkText"],
+        ["css=.btn-lg", "css:finder"],
+        ["xpath=//a[contains(text(),'Add Credit Card')]", "xpath:link"],
+        ["xpath=//div[@id='j_id0:j_id1:j_id2:j_id3:j_id164:j_id165:j_id166:j_id167_2:j_id253:j_id254']/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/managecreditcard')]", "xpath:href"],
+        ["xpath=//form/div/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Add Credit Card')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3cd677d5-9bc9-423f-bac8-35040999d226",
+      "comment": "",
+      "command": "executeScript",
+      "target": "window.scrollBy(0, 500);",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d3b2176b-d533-4477-9462-8dd08511b0c5",
+      "comment": "",
+      "command": "click",
+      "target": "id=j_id0:j_id1:j_id2:j_id3:j_id164:j_id165:j_id166:j_id167_2:j_id346:credit-card-name",
+      "targets": [
+        ["id=j_id0:j_id1:j_id2:j_id3:j_id164:j_id165:j_id166:j_id167_2:j_id346:credit-card-name", "id"],
+        ["name=j_id0:j_id1:j_id2:j_id3:j_id164:j_id165:j_id166:j_id167_2:j_id346:credit-card-name", "name"],
+        ["css=#j_id0\\3Aj_id1\\3Aj_id2\\3Aj_id3\\3Aj_id164\\3Aj_id165\\3Aj_id166\\3Aj_id167_2\\3Aj_id346\\3A credit-card-name", "css:finder"],
+        ["xpath=//input[@id='j_id0:j_id1:j_id2:j_id3:j_id164:j_id165:j_id166:j_id167_2:j_id346:credit-card-name']", "xpath:attributes"],
+        ["xpath=//div[@id='j_id0:j_id1:j_id2:j_id3:j_id164:j_id165:j_id166:j_id167_2:j_id346:CreditCardPayment']/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f5b95a14-bee1-464e-be43-99171afe03be",
+      "comment": "",
+      "command": "click",
+      "target": "id=j_id0:j_id1:j_id2:j_id3:j_id164:j_id165:j_id166:j_id167_2:j_id346:credit-card-name",
+      "targets": [
+        ["id=j_id0:j_id1:j_id2:j_id3:j_id164:j_id165:j_id166:j_id167_2:j_id346:credit-card-name", "id"],
+        ["name=j_id0:j_id1:j_id2:j_id3:j_id164:j_id165:j_id166:j_id167_2:j_id346:credit-card-name", "name"],
+        ["css=#j_id0\\3Aj_id1\\3Aj_id2\\3Aj_id3\\3Aj_id164\\3Aj_id165\\3Aj_id166\\3Aj_id167_2\\3Aj_id346\\3A credit-card-name", "css:finder"],
+        ["xpath=//input[@id='j_id0:j_id1:j_id2:j_id3:j_id164:j_id165:j_id166:j_id167_2:j_id346:credit-card-name']", "xpath:attributes"],
+        ["xpath=//div[@id='j_id0:j_id1:j_id2:j_id3:j_id164:j_id165:j_id166:j_id167_2:j_id346:CreditCardPayment']/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "774f7914-2b68-478e-90bb-c6201572e844",
+      "comment": "",
+      "command": "click",
+      "target": "id=j_id0:j_id1:j_id2:j_id3:j_id164:j_id165:j_id166:j_id167_2:j_id346:credit-card-name",
+      "targets": [
+        ["id=j_id0:j_id1:j_id2:j_id3:j_id164:j_id165:j_id166:j_id167_2:j_id346:credit-card-name", "id"],
+        ["name=j_id0:j_id1:j_id2:j_id3:j_id164:j_id165:j_id166:j_id167_2:j_id346:credit-card-name", "name"],
+        ["css=#j_id0\\3Aj_id1\\3Aj_id2\\3Aj_id3\\3Aj_id164\\3Aj_id165\\3Aj_id166\\3Aj_id167_2\\3Aj_id346\\3A credit-card-name", "css:finder"],
+        ["xpath=//input[@id='j_id0:j_id1:j_id2:j_id3:j_id164:j_id165:j_id166:j_id167_2:j_id346:credit-card-name']", "xpath:attributes"],
+        ["xpath=//div[@id='j_id0:j_id1:j_id2:j_id3:j_id164:j_id165:j_id166:j_id167_2:j_id346:CreditCardPayment']/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "19707460-beb8-44af-b89c-4b383b4a90c4",
+      "comment": "",
+      "command": "click",
+      "target": "id=j_id0:j_id1:j_id2:j_id3:j_id164:j_id165:j_id166:j_id167_2:j_id346:CreditCardNumber",
+      "targets": [
+        ["id=j_id0:j_id1:j_id2:j_id3:j_id164:j_id165:j_id166:j_id167_2:j_id346:CreditCardNumber", "id"],
+        ["name=j_id0:j_id1:j_id2:j_id3:j_id164:j_id165:j_id166:j_id167_2:j_id346:CreditCardNumber", "name"],
+        ["css=#j_id0\\3Aj_id1\\3Aj_id2\\3Aj_id3\\3Aj_id164\\3Aj_id165\\3Aj_id166\\3Aj_id167_2\\3Aj_id346\\3A CreditCardNumber", "css:finder"],
+        ["xpath=//input[@id='j_id0:j_id1:j_id2:j_id3:j_id164:j_id165:j_id166:j_id167_2:j_id346:CreditCardNumber']", "xpath:attributes"],
+        ["xpath=//div[@id='j_id0:j_id1:j_id2:j_id3:j_id164:j_id165:j_id166:j_id167_2:j_id346:CreditCardPayment']/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "73b3f1d7-fa16-454f-b477-dd35dc34a977",
+      "comment": "",
+      "command": "type",
+      "target": "id=j_id0:j_id1:j_id2:j_id3:j_id164:j_id165:j_id166:j_id167_2:j_id346:CreditCardNumber",
+      "targets": [
+        ["id=j_id0:j_id1:j_id2:j_id3:j_id164:j_id165:j_id166:j_id167_2:j_id346:CreditCardNumber", "id"],
+        ["name=j_id0:j_id1:j_id2:j_id3:j_id164:j_id165:j_id166:j_id167_2:j_id346:CreditCardNumber", "name"],
+        ["css=#j_id0\\3Aj_id1\\3Aj_id2\\3Aj_id3\\3Aj_id164\\3Aj_id165\\3Aj_id166\\3Aj_id167_2\\3Aj_id346\\3A CreditCardNumber", "css:finder"],
+        ["xpath=//input[@id='j_id0:j_id1:j_id2:j_id3:j_id164:j_id165:j_id166:j_id167_2:j_id346:CreditCardNumber']", "xpath:attributes"],
+        ["xpath=//div[@id='j_id0:j_id1:j_id2:j_id3:j_id164:j_id165:j_id166:j_id167_2:j_id346:CreditCardPayment']/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": "4693847520194836"
+    }, {
+      "id": "43f053fe-9198-4ced-a150-fb3f41ca0f42",
+      "comment": "",
+      "command": "click",
+      "target": "id=j_id0:j_id1:j_id2:j_id3:j_id164:j_id165:j_id166:j_id167_2:j_id346:credit-card-name",
+      "targets": [
+        ["id=j_id0:j_id1:j_id2:j_id3:j_id164:j_id165:j_id166:j_id167_2:j_id346:credit-card-name", "id"],
+        ["name=j_id0:j_id1:j_id2:j_id3:j_id164:j_id165:j_id166:j_id167_2:j_id346:credit-card-name", "name"],
+        ["css=#j_id0\\3Aj_id1\\3Aj_id2\\3Aj_id3\\3Aj_id164\\3Aj_id165\\3Aj_id166\\3Aj_id167_2\\3Aj_id346\\3A credit-card-name", "css:finder"],
+        ["xpath=//input[@id='j_id0:j_id1:j_id2:j_id3:j_id164:j_id165:j_id166:j_id167_2:j_id346:credit-card-name']", "xpath:attributes"],
+        ["xpath=//div[@id='j_id0:j_id1:j_id2:j_id3:j_id164:j_id165:j_id166:j_id167_2:j_id346:CreditCardPayment']/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3de192c0-0313-4570-846d-32345654ddbe",
+      "comment": "",
+      "command": "type",
+      "target": "id=j_id0:j_id1:j_id2:j_id3:j_id164:j_id165:j_id166:j_id167_2:j_id346:credit-card-name",
+      "targets": [
+        ["id=j_id0:j_id1:j_id2:j_id3:j_id164:j_id165:j_id166:j_id167_2:j_id346:credit-card-name", "id"],
+        ["name=j_id0:j_id1:j_id2:j_id3:j_id164:j_id165:j_id166:j_id167_2:j_id346:credit-card-name", "name"],
+        ["css=#j_id0\\3Aj_id1\\3Aj_id2\\3Aj_id3\\3Aj_id164\\3Aj_id165\\3Aj_id166\\3Aj_id167_2\\3Aj_id346\\3A credit-card-name", "css:finder"],
+        ["xpath=//input[@id='j_id0:j_id1:j_id2:j_id3:j_id164:j_id165:j_id166:j_id167_2:j_id346:credit-card-name']", "xpath:attributes"],
+        ["xpath=//div[@id='j_id0:j_id1:j_id2:j_id3:j_id164:j_id165:j_id166:j_id167_2:j_id346:CreditCardPayment']/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": "Melissa Harris"
+    }, {
+      "id": "defc4eab-bd62-4215-b7da-5605d2c7bb54",
+      "comment": "",
+      "command": "click",
+      "target": "id=j_id0:j_id1:j_id2:j_id3:j_id164:j_id165:j_id166:j_id167_2:j_id346:credit-card-cvv",
+      "targets": [
+        ["id=j_id0:j_id1:j_id2:j_id3:j_id164:j_id165:j_id166:j_id167_2:j_id346:credit-card-cvv", "id"],
+        ["name=j_id0:j_id1:j_id2:j_id3:j_id164:j_id165:j_id166:j_id167_2:j_id346:credit-card-cvv", "name"],
+        ["css=#j_id0\\3Aj_id1\\3Aj_id2\\3Aj_id3\\3Aj_id164\\3Aj_id165\\3Aj_id166\\3Aj_id167_2\\3Aj_id346\\3A credit-card-cvv", "css:finder"],
+        ["xpath=//input[@id='j_id0:j_id1:j_id2:j_id3:j_id164:j_id165:j_id166:j_id167_2:j_id346:credit-card-cvv']", "xpath:attributes"],
+        ["xpath=//div[@id='j_id0:j_id1:j_id2:j_id3:j_id164:j_id165:j_id166:j_id167_2:j_id346:CreditCardPayment']/div[4]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a989f1d5-512d-464d-871b-ae2fab215acd",
+      "comment": "",
+      "command": "type",
+      "target": "id=j_id0:j_id1:j_id2:j_id3:j_id164:j_id165:j_id166:j_id167_2:j_id346:credit-card-cvv",
+      "targets": [
+        ["id=j_id0:j_id1:j_id2:j_id3:j_id164:j_id165:j_id166:j_id167_2:j_id346:credit-card-cvv", "id"],
+        ["name=j_id0:j_id1:j_id2:j_id3:j_id164:j_id165:j_id166:j_id167_2:j_id346:credit-card-cvv", "name"],
+        ["css=#j_id0\\3Aj_id1\\3Aj_id2\\3Aj_id3\\3Aj_id164\\3Aj_id165\\3Aj_id166\\3Aj_id167_2\\3Aj_id346\\3A credit-card-cvv", "css:finder"],
+        ["xpath=//input[@id='j_id0:j_id1:j_id2:j_id3:j_id164:j_id165:j_id166:j_id167_2:j_id346:credit-card-cvv']", "xpath:attributes"],
+        ["xpath=//div[@id='j_id0:j_id1:j_id2:j_id3:j_id164:j_id165:j_id166:j_id167_2:j_id346:CreditCardPayment']/div[4]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/div/input", "xpath:position"]
+      ],
+      "value": "468"
+    }, {
+      "id": "b15d4bfd-77b5-496e-a191-00c75c780530",
+      "comment": "",
+      "command": "select",
+      "target": "id=j_id0:j_id1:j_id2:j_id3:j_id164:j_id165:j_id166:j_id167_2:j_id346:CreditCardExpirationMonth",
+      "targets": [],
+      "value": "label=05"
+    }, {
+      "id": "c3e5c925-e484-4170-b2a3-0b048b29c613",
+      "comment": "",
+      "command": "click",
+      "target": "css=#j_id0\\3Aj_id1\\3Aj_id2\\3Aj_id3\\3Aj_id164\\3Aj_id165\\3Aj_id166\\3Aj_id167_2\\3Aj_id346\\3A CreditCardExpirationMonth > option:nth-child(8)",
+      "targets": [
+        ["css=#j_id0\\3Aj_id1\\3Aj_id2\\3Aj_id3\\3Aj_id164\\3Aj_id165\\3Aj_id166\\3Aj_id167_2\\3Aj_id346\\3A CreditCardExpirationMonth > option:nth-child(8)", "css:finder"],
+        ["xpath=//option[@value='08']", "xpath:attributes"],
+        ["xpath=//select[@id='j_id0:j_id1:j_id2:j_id3:j_id164:j_id165:j_id166:j_id167_2:j_id346:CreditCardExpirationMonth']/option[8]", "xpath:idRelative"],
+        ["xpath=//option[8]", "xpath:position"],
+        ["xpath=//option[contains(.,'08')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "91ac0bcf-437e-4f64-b4a3-05602771329d",
+      "comment": "",
+      "command": "click",
+      "target": "id=j_id0:j_id1:j_id2:j_id3:j_id164:j_id165:j_id166:j_id167_2:j_id346:CreditCardExpirationYear",
+      "targets": [
+        ["id=j_id0:j_id1:j_id2:j_id3:j_id164:j_id165:j_id166:j_id167_2:j_id346:CreditCardExpirationYear", "id"],
+        ["name=j_id0:j_id1:j_id2:j_id3:j_id164:j_id165:j_id166:j_id167_2:j_id346:CreditCardExpirationYear", "name"],
+        ["css=#j_id0\\3Aj_id1\\3Aj_id2\\3Aj_id3\\3Aj_id164\\3Aj_id165\\3Aj_id166\\3Aj_id167_2\\3Aj_id346\\3A CreditCardExpirationYear", "css:finder"],
+        ["xpath=//select[@id='j_id0:j_id1:j_id2:j_id3:j_id164:j_id165:j_id166:j_id167_2:j_id346:CreditCardExpirationYear']", "xpath:attributes"],
+        ["xpath=//div[@id='j_id0:j_id1:j_id2:j_id3:j_id164:j_id165:j_id166:j_id167_2:j_id346:CreditCardPayment']/div[6]/div/select[2]", "xpath:idRelative"],
+        ["xpath=//select[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "75229155-038d-466d-8782-a1cc56909f5d",
+      "comment": "",
+      "command": "select",
+      "target": "id=j_id0:j_id1:j_id2:j_id3:j_id164:j_id165:j_id166:j_id167_2:j_id346:CreditCardExpirationYear",
+      "targets": [],
+      "value": "label=2028"
+    }, {
+      "id": "5f307e81-a57a-47f7-8c9f-4bdc2f649ea6",
+      "comment": "",
+      "command": "click",
+      "target": "css=#j_id0\\3Aj_id1\\3Aj_id2\\3Aj_id3\\3Aj_id164\\3Aj_id165\\3Aj_id166\\3Aj_id167_2\\3Aj_id346\\3A CreditCardExpirationYear > option:nth-child(3)",
+      "targets": [
+        ["css=#j_id0\\3Aj_id1\\3Aj_id2\\3Aj_id3\\3Aj_id164\\3Aj_id165\\3Aj_id166\\3Aj_id167_2\\3Aj_id346\\3A CreditCardExpirationYear > option:nth-child(3)", "css:finder"],
+        ["xpath=//option[@value='2027']", "xpath:attributes"],
+        ["xpath=//select[@id='j_id0:j_id1:j_id2:j_id3:j_id164:j_id165:j_id166:j_id167_2:j_id346:CreditCardExpirationYear']/option[3]", "xpath:idRelative"],
+        ["xpath=//select[2]/option[3]", "xpath:position"],
+        ["xpath=//option[contains(.,'2027')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a05d70d3-814b-46d0-86bc-390545394e40",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Save",
+      "targets": [
+        ["linkText=Save", "linkText"],
+        ["css=.btn-lg", "css:finder"],
+        ["xpath=//a[contains(text(),'Save')]", "xpath:link"],
+        ["xpath=//a[@onclick=\"var a=function(){if(false)             { if(!confirm('Are you sure?')) return false; } if(canLockForm(this)) { clickLockStart(); };};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('j_id0:j_id1:j_id2:j_id3:j_id164'),'j_id0:j_id1:j_id2:j_id3:j_id164:j_id165:j_id166:j_id167_3:j_id411:j_id413:0:j_id415:j_id416:j_id418:ButtonStandalone:j_id421,j_id0:j_id1:j_id2:j_id3:j_id164:j_id165:j_id166:j_id167_3:j_id411:j_id413:0:j_id415:j_id416:j_id418:ButtonStandalone:j_id421','');}return false};return (a()==false) ? false : b();\"]", "xpath:attributes"],
+        ["xpath=//div[@id='j_id0:j_id1:j_id2:j_id3:j_id164:j_id165:j_id166:j_id167_3:j_id411:j_id412']/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#')]", "xpath:href"],
+        ["xpath=//div[3]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Save')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "80cea97c-7ad3-4118-b8a2-619b7d39ec24",
+      "comment": "",
+      "command": "pause",
+      "target": "",
+      "targets": [],
+      "value": "2000"
+    }, {
+      "id": "7fa9c336-d727-4a10-b81b-f0f8c2f2728d",
+      "comment": "Fallo el metodo de pago",
+      "command": "assertText",
+      "target": "css=.col-sm-6 > .alert",
+      "targets": [
+        ["css=.col-sm-6 > .alert", "css:finder"],
+        ["xpath=//div[@id='j_id0:j_id1:j_id2:j_id3:PageContainer']/div[2]/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div", "xpath:position"]
+      ],
+      "value": "Sorry, there was a problem with the authorization of this payment method. Please update your payment method details and try again."
+    }, {
+      "id": "f52d585d-f93a-4eae-85ef-d45ab91ac39f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Log Out",
+      "targets": [
+        ["linkText=Log Out", "linkText"],
+        ["css=.m-global-nav-item:nth-child(5) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Log Out')])[2]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '/secur/logout.jsp')])[2]", "xpath:href"],
+        ["xpath=//li[5]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fe93fac3-3877-4291-adc5-6c9abe771667",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Forum",
+      "targets": [
+        ["linkText=Forum", "linkText"],
+        ["css=.header-secondary__item:nth-child(3) > .header-secondary__link", "css:finder"],
+        ["xpath=//a[contains(text(),'Forum')]", "xpath:link"],
+        ["xpath=//div[@id='menu--pane-1']/nav/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/community')]", "xpath:href"],
+        ["xpath=//li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Forum')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ae95a9b6-2053-4754-af50-479f1b261188",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "fd950432-0325-493b-9b8a-40d4d88c9567",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["46c21e89-7715-4c7b-b539-f59ef63ed4f1"]
+  }],
+  "urls": ["https://mycan.ceramicartsnetwork.org/"],
+  "plugins": []
+}

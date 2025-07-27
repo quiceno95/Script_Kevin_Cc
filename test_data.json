@@ -1,0 +1,114 @@
+{
+  "users": [
+    {
+      "firstName": "Travis",
+      "lastName": "Jones",
+      "address": "4343 Sunburst Drive",
+      "city": "Taylorborough",
+      "state": "New Jersey",
+      "zipCode": "08901",
+      "phone": "732-851-1523",
+      "email": "travis.jones.001@gmail.com",
+      "education": "Graduate"
+    },
+    {
+      "firstName": "Maria",
+      "lastName": "Garcia",
+      "address": "1234 Oak Street",
+      "city": "Springfield",
+      "state": "California",
+      "zipCode": "90210",
+      "phone": "555-123-4567",
+      "email": "maria.garcia.002@gmail.com",
+      "education": "Undergraduate"
+    },
+    {
+      "firstName": "John",
+      "lastName": "Smith",
+      "address": "5678 Pine Avenue",
+      "city": "Madison",
+      "state": "Wisconsin",
+      "zipCode": "53706",
+      "phone": "608-555-9876",
+      "email": "john.smith.003@gmail.com",
+      "education": "High School"
+    },
+    {
+      "firstName": "Ana",
+      "lastName": "Rodriguez",
+      "address": "9876 Maple Lane",
+      "city": "Austin",
+      "state": "Texas",
+      "zipCode": "73301",
+      "phone": "512-555-2468",
+      "email": "ana.rodriguez.004@gmail.com",
+      "education": "Graduate"
+    },
+    {
+      "firstName": "David",
+      "lastName": "Wilson",
+      "address": "2468 Cedar Road",
+      "city": "Portland",
+      "state": "Oregon",
+      "zipCode": "97201",
+      "phone": "503-555-1357",
+      "email": "david.wilson.005@gmail.com",
+      "education": "Some College"
+    },
+    {
+      "firstName": "Carmen",
+      "lastName": "Lopez",
+      "address": "1357 Birch Street",
+      "city": "Miami",
+      "state": "Florida",
+      "zipCode": "33101",
+      "phone": "305-555-8642",
+      "email": "carmen.lopez.006@gmail.com",
+      "education": "Graduate"
+    },
+    {
+      "firstName": "Michael",
+      "lastName": "Brown",
+      "address": "8642 Elm Drive",
+      "city": "Denver",
+      "state": "Colorado",
+      "zipCode": "80201",
+      "phone": "303-555-7531",
+      "email": "michael.brown.007@gmail.com",
+      "education": "Undergraduate"
+    },
+    {
+      "firstName": "Sofia",
+      "lastName": "Martinez",
+      "address": "7531 Willow Court",
+      "city": "Phoenix",
+      "state": "Arizona",
+      "zipCode": "85001",
+      "phone": "602-555-9642",
+      "email": "sofia.martinez.008@gmail.com",
+      "education": "High School"
+    },
+    {
+      "firstName": "Robert",
+      "lastName": "Davis",
+      "address": "9642 Spruce Way",
+      "city": "Seattle",
+      "state": "Washington",
+      "zipCode": "98101",
+      "phone": "206-555-3579",
+      "email": "robert.davis.009@gmail.com",
+      "education": "Some College"
+    },
+    {
+      "firstName": "Isabella",
+      "lastName": "Hernandez",
+      "address": "3579 Poplar Place",
+      "city": "Las Vegas",
+      "state": "Nevada",
+      "zipCode": "89101",
+      "phone": "702-555-1593",
+      "email": "isabella.hernandez.010@gmail.com",
+      "education": "Graduate"
+    }
+  ]
+}

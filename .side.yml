@@ -1,0 +1,21 @@
+capabilities:
+  browserName: chrome
+  'goog:chromeOptions':
+    args:
+      - "--disable-blink-features=AutomationControlled"
+      - "--disable-extensions"
+      - "--no-sandbox"
+      - "--disable-dev-shm-usage"
+      - "--disable-notifications"
+      - "--disable-popup-blocking"
+      - "--disable-web-security"
+      - "--disable-features=VizDisplayCompositor"
+    prefs:
+      "profile.default_content_setting_values.notifications": 2
+      "profile.default_content_settings.popups": 0
+    excludeSwitches:
+      - "enable-automation"
+    useAutomationExtension: false
+
+timeout: 30000
+retries: 0
