@@ -1,5 +1,6 @@
 npx selenium-side-runner  -c "browserName=firefox moz:firefoxOptions.args=['-headless']" "Tets Metdo De Pago.side"
 
+npx selenium-side-runner -c "browserName=firefox moz:firefoxOptions.args=['-headless','-profile','/tmp/firefox-selenium-profile']" "Tets Metdo De Pago.side"
 
 
 1. Instalar Firefox y Geckodriver en Ubuntu
