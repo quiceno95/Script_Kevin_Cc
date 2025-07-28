@@ -339,3 +339,7 @@ echo "✅ Verificación completada"
 - 🧹 **Cleanup**: El archivo .side original siempre se restaura
 - ⏰ **Timeouts**: Configurados para manejar páginas lentas
 - 🛡️ **Interrupciones**: Ctrl+C restaura automáticamente el archivo original
+
+#npx selenium-side-runner \
+  -c "browserName=chrome goog:chromeOptions.args=['--user-data-dir=/tmp/chrome-profile-$(date +%s)']" \
+  "Tets Metdo De Pago.side"
