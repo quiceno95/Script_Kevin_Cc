@@ -343,3 +343,9 @@ echo "✅ Verificación completada"
 #npx selenium-side-runner \
   -c "browserName=chrome goog:chromeOptions.args=['--user-data-dir=/tmp/chrome-profile-$(date +%s)']" \
   "Tets Metdo De Pago.side"
+
+
+npx selenium-side-runner \
+  -c "browserName=chrome goog:chromeOptions.args=['--incognito']" \
+  "Tets Metdo De Pago.side"
+
