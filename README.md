@@ -1,3 +1,9 @@
+sudo apt install -y xvfb
+xvfb-run npx selenium-side-runner -c "browserName=chrome" 'Tets Metdo De Pago.side'
+
+
+
+
 # Test de Automatización - Método de Pago
 
 Este proyecto automatiza el proceso de registro y método de pago en `mycan.ceramicartsnetwork.org` usando Selenium IDE y Selenium Side Runner.
